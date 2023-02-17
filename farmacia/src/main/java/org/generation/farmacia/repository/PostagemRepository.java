@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 
 
-
+@Repository
 public interface PostagemRepository extends JpaRepository<Postagem, Long>{
 
     List<Postagem> findAllByTituloContainingIgnoreCase(@Param("titulo") String titulo);
