@@ -157,3 +157,6 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 			throw new ResponseStatusException(HttpStatus.FORBIDDEN);
 	}
 }
+
+
+@Service, Optional, BCryptPasswordEncoder, encodeBase64,
