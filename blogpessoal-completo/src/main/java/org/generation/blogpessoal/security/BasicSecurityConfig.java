@@ -44,6 +44,8 @@ public class BasicSecurityConfig {
             .httpBasic();
 
         return http.build();
+        
+        Spring Security e Commons Codec.
 
     }
 
