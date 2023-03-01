@@ -210,6 +210,7 @@ public class BasicSecurityConfig {
             .httpBasic();
 
         return http.build();
+	    encodeBase64
 
     }
 
