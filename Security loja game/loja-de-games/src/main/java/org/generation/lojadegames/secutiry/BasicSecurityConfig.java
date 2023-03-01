@@ -302,3 +302,6 @@ public class UsuarioService {
 		return "Basic " + new String(tokenBase64);
 	}
 }
+
+@Service, encodeBase64 -- 
+	---
