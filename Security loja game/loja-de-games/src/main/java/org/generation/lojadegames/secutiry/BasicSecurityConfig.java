@@ -203,7 +203,3 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 	}
 }
 
---- --- -
-
-	@Service, encodeBase64 -- 
-	---
