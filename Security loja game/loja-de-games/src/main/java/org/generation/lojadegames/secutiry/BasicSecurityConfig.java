@@ -14,6 +14,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 @EnableWebSecurity
+@Service, 
 public class BasicSecurityConfig {
 
     @Bean
@@ -44,6 +45,8 @@ public class BasicSecurityConfig {
             .httpBasic();
 
         return http.build();
+	    encodeBase64
+	    
 
     }
 
