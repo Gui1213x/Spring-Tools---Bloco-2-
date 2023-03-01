@@ -156,7 +156,7 @@ import org.springframework.web.server.ResponseStatusException;
 				return new UserDetailsImpl(usuario.get());
 			else
 				throw new ResponseStatusException(HttpStatus.FORBIDDEN);
-			encodeBase64
+			
 		}
 	}
 
